@@ -11,10 +11,13 @@ body{
 }
 ul{
  display: flex;
- color: white;
  gap: 15px;
  list-style-type: none;
     padding-right: 180px;
+}
+a{
+    color: white;
+    text-decoration: none;
 }
 #logo{
     width: 60px;
@@ -156,4 +159,20 @@ margin: 50px;
 
 .alert-container>p{
     margin-top: -13px;
+}
+
+figcaption{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 25px;
 }
