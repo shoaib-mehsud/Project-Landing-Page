@@ -1,0 +1,159 @@
+body{
+ padding:0;
+ margin: 0;
+}
+.head-upper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+
+}
+ul{
+ display: flex;
+ color: white;
+ gap: 15px;
+ list-style-type: none;
+    padding-right: 180px;
+}
+#logo{
+    width: 60px;
+    height: 60px;
+    padding-left: 180px;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937 ;
+    height: 400px;
+}
+.head-lower{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+  
+}
+h1{
+   
+    color: wheat;
+}
+.description{
+    color: rgba(256,256, 256, 0.5);
+
+   
+    width: 380px;
+    margin-top: -15px;
+
+}
+.head-lower-left {
+    margin-left: 180px;
+}
+
+button{
+    background-color: rgb(0, 111, 230);
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    
+}
+
+.head-lower-right{
+      padding-right: 140px;
+      display: flex;
+    
+}
+
+.head-lower-right img {
+    max-width: 300px;   
+    height: auto;
+    border-radius: 8px;
+    
+}
+figcaption{
+    color: rgb(0, 0, 0);
+}
+
+.main{
+    display: flex;
+    padding: 30px;
+  
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+
+}
+
+.main-images{
+    display: flex;
+   flex: 1;
+    padding: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+h2{
+    font-size:xx-large;
+    
+}
+.main-images img {
+    display: flex;
+    max-width: 200px;   
+    height: 200px;
+    border-radius: 8px;
+    
+}
+
+.inspirational-quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #efe7eb;
+    align-items: center;
+}
+
+.inspirational-quote>p{
+
+margin: 50px;
+   padding-left: 100px;
+   padding-right: 100px; 
+    font-size: 24px;
+   font-weight: 300;      
+  font-style: italic;  
+  color: #1f2937; 
+}
+.author{
+    align-self: flex-end;
+    padding-right: 180px;
+    margin-top: -70px;
+}
+
+.alert{
+    margin: 100px;
+    padding: 20px;
+    background-color: rgb(0, 111, 230,0.75);
+    border-radius: 30px;
+    color: white;
+    padding-left: 70px;
+    padding-right: 70px;
+
+}
+
+
+.alert{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.alert-container>p{
+    margin-top: -13px;
+}
